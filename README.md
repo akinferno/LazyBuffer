@@ -5,7 +5,7 @@ This was created to with the intent of providing full backward compatibility wit
 
 **Disclaimer**: _Use at your own risk. I am not responsible for any damage caused by use of these macros. That said, I have been working on them for weeks and am using them myself. I would like feedback and suggestions to keep improving them. I can be reached here, or on the Sovol discord server under @AKinferno._
 
-# INSTALLATION
+# Installation
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
    
     a) Using a terminal program (putty, mobaterm, etc.), access the Sovol SV08 Max.
@@ -36,7 +36,7 @@ This was created to with the intent of providing full backward compatibility wit
 6) Save and restart Klipper.  You are done.
 
 
-# EXPANDED FEATURES
+# Expanded Features
 - Buffer now syncs with the extruder motor to QUIETLY and smoothly load filament throughout a print.
 - Reduced current to buffer stepper to prevent heat buildup.
 - Automatic Loading and Unloading
@@ -45,7 +45,7 @@ This was created to with the intent of providing full backward compatibility wit
 - Enhanced functionalty of the button on the buffer
 
 
-# BUFFER BUTTON MODES EXPLAINED
+# Buffer Button Modes Explained
 **Basic Button Fuction** _- If Advance_Button_Enabled pin is false or turned off._ (COMING SOON - Advanced Mode is the only mode at the moment)
 - Press the button advance the filament buffer in 5mm increments
 - Hold the button to execute what was the Long Unload function.
