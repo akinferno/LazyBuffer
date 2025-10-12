@@ -7,16 +7,18 @@ This was created to with the intent of providing full backward compatibility wit
 
 # INSTALLATION
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
+   
     a) Using a terminal program (putty, mobaterm, etc.), access the Sovol SV08 Max.
        - Username: sovol
        - Password: sovol
+   
     b) Clone the Virtual Pin repository with the following commands:
    
         cd ~
         git clone https://github.com/pedrolamas/klipper-virtual-pins.git
         ./klipper-virtual-pins/install.sh
 
-2) Download _LazyBuffer.cfg_ and add upload it to your printer config folder.
+3) Download _LazyBuffer.cfg_ and add upload it to your printer config folder.
    
 4) Open the _LazyBuffer.cfg_ and insert you buffers **canbus_uuid:** under _**[mcu buffer_mcu]**_. _If you don't know your UUID, open the original **Buffer_Stepper.cfg** file and copy it from there._
 
