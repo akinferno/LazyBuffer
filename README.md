@@ -9,8 +9,9 @@ This was created to with the intent of providing full backward compatibility wit
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
    
     a) Using a terminal program (putty, mobaterm, etc.), access the Sovol SV08 Max.
-       - Username: sovol
-       - Password: sovol
+   
+       Username: sovol
+       Password: sovol
    
     b) Clone the Virtual Pin repository with the following commands:
    
