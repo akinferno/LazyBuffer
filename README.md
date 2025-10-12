@@ -47,14 +47,14 @@ This was created to with the intent of providing full backward compatibility wit
 - Default is identified as a solid LED color. Green, Blue and Red by blinking LED. Mode reverts to Default after 10sec of inactivity or execution of action.
 - Mode commands vary based on printer status.
 
-- **Printing** 
+  **Printing** 
     - Blue - PAUSE
     - Red - CANCEL_PRINT
-- **Paused**
+  **Paused**
     - Green - AUTO_LOAD_FILAMENT
     - Blue - RESUME
     - Red - AUTO_UNLOAD_FILAMENT
-- **Idle**
+  **Idle**
     - Green - AUTO_LOAD_FILAMENT
     - Red - AUTO_UNLOAD_FILAMENT
 
