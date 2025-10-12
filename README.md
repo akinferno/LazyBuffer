@@ -3,7 +3,7 @@ An override of the Sovol Buffer/Feeder to make it behave more like I expected it
 
 This was created to with the intent of providing full backward compatibility with all system calls from the original Sovol Buffer_Stepper.cfg file. Since I am not using the original pin definitions, the two options were to use unused pins on the board, which restrict their use for future mods, or use virtual pins. I opted for virtual pins. So, here is what you need to do to get started:
 
-**_Disclaimer**: Use at your own risk. I am not responsible for any damage caused by use of this macro. That said, I have been working on this for weeks and an using it myself. I would like feedback and suggestions. I can be found on the Sovol discord server under AKinferno. _
+_**Disclaimer**: Use at your own risk. I am not responsible for any damage caused by use of this macro. That said, I have been working on this for weeks and an using it myself. I would like feedback and suggestions. I can be found on the Sovol discord server under AKinferno. _
 
 # INSTALLATION
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
