@@ -46,17 +46,17 @@ This was created to with the intent of providing full backward compatibility wit
 - Modes are identified as Default, Green, Blue and Red.
 - Default is identified as a solid LED color. Green, Blue and Red by blinking LED. Mode reverts to Default after 10sec of inactivity or execution of action.
 - Mode commands vary based on printer status.
-- 
--- **Printing** 
-  * Blue - PAUSE
-  * Red - CANCEL_PRINT
--- **Paused**
-  * Green - AUTO_LOAD_FILAMENT
-  * Blue - RESUME
-  * Red - AUTO_UNLOAD_FILAMENT
--- **Idle**
-  * Green - AUTO_LOAD_FILAMENT
-  * Red - AUTO_UNLOAD_FILAMENT
+
+- **Printing** 
+    - Blue - PAUSE
+    - Red - CANCEL_PRINT
+- **Paused**
+    - Green - AUTO_LOAD_FILAMENT
+    - Blue - RESUME
+    - Red - AUTO_UNLOAD_FILAMENT
+- **Idle**
+    - Green - AUTO_LOAD_FILAMENT
+    - Red - AUTO_UNLOAD_FILAMENT
 
 # Credits and Acknowledgements
 - Klipper by Kevin O'Connor
