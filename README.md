@@ -74,3 +74,9 @@ This was created to with the intent of providing full backward compatibility wit
   - @wildBill
   - @uniqueacid
 - Sovol for making their printers opensource
+
+_Why Lazy?
+
+Someone once told me, William Washington told me "Laziness breeds efficiency." I argued with him about that when I was young. His point was when people think something is cumbersome, inefficent or takes too much effort to accomplish, they create easier more efficient ways of doing so. 
+Started with my Lazy Cams for my Voron 0. I made them because I didn't like having to find a tool to open my Voron. I went throuch several iterations before settling on what I think is a must have mod for the Voron 0.
+Enter the Sovol SV08 Max buffer.  Not only was it loud and obnoxious, but it wasn't efficient. There were 3 sensors and they weren't being used effectively. So I spent weeks making the LazyBuffer macros, after being told it couldn't be done._
