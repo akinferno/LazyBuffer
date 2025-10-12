@@ -22,6 +22,9 @@ This was created to with the intent of providing full backward compatibility wit
 3) Download _LazyBuffer.cfg_ and add upload it to your printer config folder.
    
 4) Open the _LazyBuffer.cfg_ and insert you buffers **canbus_uuid:** under _**[mcu buffer_mcu]**_. _If you don't know your UUID, open the original **Buffer_Stepper.cfg** file and copy it from there._
+      
+        [mcu buffer_mcu]
+        canbus_uuid: <insert your CAN ID here>
 
 5) Edit you _printer.cfg_ file.
     a) Comment out the Sovol _Buffer_Stepper.cfg_ fil by adding a _#_ to the beginning of include statement.
