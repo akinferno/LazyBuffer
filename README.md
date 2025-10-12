@@ -35,7 +35,7 @@ This was created to with the intent of providing full backward compatibility wit
 
 # EXPANDED FEATURES
 - Buffer now syncs with the extruder motor to QUIETLY and smoothly load filament throughout a print.
-- Reduce current to buffer stepper to prevent heat buildup.
+- Reduced current to buffer stepper to prevent heat buildup.
 - Automatic Loading and Unloading
 - Clog Detection and Filament Runout detection
 - Enable/Disable any of these functions, including the buffer itself, it you want to bypass it
@@ -43,7 +43,7 @@ This was created to with the intent of providing full backward compatibility wit
 
 
 # BUFFER BUTTON MODES EXPLAINED
-**Basic Button Fuction** _- If Advance_Button_Enabled pin is false or turned off._
+**Basic Button Fuction** _- If Advance_Button_Enabled pin is false or turned off._ (COMING SOON - Advanced Mode is the only mode at the moment)
 - Press the button advance the filament buffer in 5mm increments
 - Hold the button to execute what was the Long Unload function.
 
