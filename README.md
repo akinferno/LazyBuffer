@@ -44,7 +44,7 @@ This was created to with the intent of providing full backward compatibility wit
 - Pressing the button changes modes
 - Holding the button executes the mode action.
 - Modes are identified as Default, Green, Blue and Red.
-- Default is identified as a solid LED color. Green, Blue and Red by blinking LED. Mode reverts to Default after 10sec of inactivity or execution of action.
+- Default is identified as a solid LED color. Green, Blue and Red by blinking LED of the selected color. Mode reverts to Default after 10sec of inactivity or execution of action.
 - Mode commands vary based on printer status.
 
   **Printing** 
