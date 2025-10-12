@@ -14,16 +14,18 @@ This was created to with the intent of providing full backward compatibility wit
         git clone https://github.com/pedrolamas/klipper-virtual-pins.git
         ./klipper-virtual-pins/install.sh
 
-2) Download _LazyBuffer.cfg_ and add it to your printer config folder.
+2) Download _LazyBuffer.cfg_ and add upload it to your printer config folder.
+   
+4) Open the _LazyBuffer.cfg_ and insert you buffers **canbus_uuid:** under _**[mcu buffer_mcu]**_
 
-3) Edit you _printer.cfg_ file.
+5) Edit you _printer.cfg_ file.
     a) Comment out the Sovol _Buffer_Stepper.cfg_ fil by adding a _#_ to the beginning of include statement.
     b) Include the replacement _LazyBuffer.cfg_ by typing _[include LazyBuffer.cfg]_ in the _printer.cfg_ file.
 
         #[include Buffer_Stepper.cfg]
         [include LazyBuffer.cfg]
 
-4) Save and restart Klipper.  You are done.
+6) Save and restart Klipper.  You are done.
 
 
 # EXPANDED FEATURES
