@@ -54,9 +54,9 @@ This was created to with the intent of providing full backward compatibility wit
     - Red - CANCEL_PRINT
       
   **Paused**
-    - Green - AUTO_LOAD_FILAMENT
+    - Green - Extrude 5mm, repeat until released
     - Blue - RESUME
-    - Red - AUTO_UNLOAD_FILAMENT
+    - Red - Retract 5mm, repeat until released
       
   **Idle**
     - Green - AUTO_LOAD_FILAMENT
