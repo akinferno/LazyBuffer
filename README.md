@@ -1,9 +1,9 @@
-# LazyBuffer
-A override of the Sovol Buffer/Feeder to make it behave more like I expected it to behave when it was shown. With several enhancements I dreamed up at the time.
+# **LazyBuffer**
+An override of the Sovol Buffer/Feeder to make it behave more like I expected it to behave when it was shown. With several enhancements I dreamed up at the time.
 
 This was created to with the intent of providing full backward compatibility with all system calls from the original Sovol Buffer_Stepper.cfg file. Since I am not using the original pin definitions, the two options were to use unused pins on the board, which restrict their use for future mods, or use virtual pins. I opted for virtual pins. So, here is what you need to do to get started:
 
-# ***INSTALLATION***
+# INSTALLATION
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
     a) Using a terminal program (putty, mobaterm, etc.), access the Sovol SV08 Max.
        - Username: sovol
@@ -26,7 +26,7 @@ This was created to with the intent of providing full backward compatibility wit
 4) Save and restart Klipper.  You are done.
 
 
-# ***EXPANDED FEATURES***
+# EXPANDED FEATURES
 - Buffer now syncs with the extruder motor to QUIETLY and smoothly load filament throughout a print.
 - Reduce current to buffer stepper to prevent heat buildup.
 - Automatic Loading and Unloading
@@ -35,7 +35,7 @@ This was created to with the intent of providing full backward compatibility wit
 - Enhanced functionalty of the button on the buffer
 
 
-# ***BUFFER BUTTON MODES EXPLAINED***
+# BUFFER BUTTON MODES EXPLAINED
 **Basic Button Fuction** _- If Advance_Button_Enabled pin is false or turned off._
 - Press the button advance the filament buffer in 5mm increments
 - Hold the button to execute what was the Long Unload function.
@@ -58,7 +58,7 @@ This was created to with the intent of providing full backward compatibility wit
   * Green - AUTO_LOAD_FILAMENT
   * Red - AUTO_UNLOAD_FILAMENT
 
-# **Credits and Acknowledgements**
+# Credits and Acknowledgements
 - Klipper by Kevin O'Connor
 - Virtual Pins by Pedrolamas
 - Assiting with Testing, troubleshooting and passing ideas:
