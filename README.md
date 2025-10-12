@@ -50,10 +50,12 @@ This was created to with the intent of providing full backward compatibility wit
   **Printing** 
     - Blue - PAUSE
     - Red - CANCEL_PRINT
+      
   **Paused**
     - Green - AUTO_LOAD_FILAMENT
     - Blue - RESUME
     - Red - AUTO_UNLOAD_FILAMENT
+      
   **Idle**
     - Green - AUTO_LOAD_FILAMENT
     - Red - AUTO_UNLOAD_FILAMENT
