@@ -76,7 +76,7 @@ This was created to with the intent of providing full backward compatibility wit
 - Assiting with Testing, troubleshooting and passing ideas:
   - @wildBill
   - @uniqueacid
-- Sovol for making their printers opensource
+- Sovol for making their printers open-source
 
 _Why Lazy?_
 
