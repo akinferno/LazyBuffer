@@ -1,4 +1,4 @@
-# **LazyBuffer**
+# **LazyBuffer Configuration Module**
 An override of the Sovol Buffer/Feeder to make it behave more like I expected it to behave when it was shown. With several enhancements I dreamed up at the time.
 
 This was created to with the intent of providing full backward compatibility with all system calls from the original Sovol Buffer_Stepper.cfg file. Since I am not using the original pin definitions, the two options were to use unused pins on the board, which restrict their use for future mods, or use virtual pins. I opted for virtual pins. So, here is what you need to do to get started:
