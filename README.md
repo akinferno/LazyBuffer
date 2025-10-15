@@ -96,3 +96,10 @@ _Why Lazy?_
 _William Washington told me "Laziness breeds efficiency." I argued with him about that when I was young. His point was when people think something is cumbersome, inefficent or takes too much effort to accomplish, they create easier more efficient ways of doing so. 
 Started with my Lazy Cams for my Voron 0. I made them because I didn't like having to find a tool to open my Voron. I went throuch several iterations before settling on what I think is a must have mod for the Voron 0.
 Enter the Sovol SV08 Max buffer.  Not only was it loud and obnoxious, but it wasn't efficient. There were 3 sensors and they weren't being used effectively. So I spent weeks making the LazyBuffer macros, after being told it couldn't be done._
+
+# Known issues
+**v0.24**
+* LED status' aren't tracking properly after execution. M400 is causing this issue as it pauses commands until previous step is complete. Rewrite of LED management planned.
+* Possible overlap of command loops which M400 didn't fix. Implemented a different method to prevent, but not yet tested. If it works, M400 may be removed, fixing this and LED issue.
+* Basic control option not implemented.
+* During print, when pausing with printer LCD instead of the buffer button, the buffer attempted to retract filament. Some conflict with Sovol macros that needs to be addressed.  Pause worked fine from LazyBuffer advanced function.
