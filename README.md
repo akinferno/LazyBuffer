@@ -5,6 +5,7 @@ This was created to with the intent of providing full backward compatibility wit
 
 **Disclaimer**: _Use at your own risk. I am not responsible for any damage caused by use of these macros. That said, I have been working on them for weeks and am using them myself. I would like feedback and suggestions to keep improving them. I can be reached here, or on the Sovol discord server under @AKinferno._
 
+
 # Installation
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
    
@@ -50,6 +51,7 @@ This was created to with the intent of providing full backward compatibility wit
 - Press the button advance the filament buffer in 5mm increments
 - Hold the button to execute what was the Long Unload function.
 
+
 **Advanced Button Function** _- If Advance_Button_Enabled pin is true or turned on._
 - Pressing the button changes modes
 - Holding the button executes the mode action.
@@ -70,6 +72,14 @@ This was created to with the intent of providing full backward compatibility wit
     - Green - AUTO_LOAD_FILAMENT
     - Red - AUTO_UNLOAD_FILAMENT
 
+
+# Uninstall 
+Decided you prefer loud noises and sporadic operation? All you have to do is change your printer.cfg back to include the original file. You can either comment mine out, or delete the line completely. Save and reboot and you are back to how you bought it. The LazyBuffer.cfg can be deleted if you don't plan to use it again. 
+
+        [include Buffer_Stepper.cfg]
+        #[include LazyBuffer.cfg]
+
+
 # Credits and Acknowledgements
 - Klipper by Kevin O'Connor
 - Virtual Pins by Pedrolamas
@@ -77,6 +87,7 @@ This was created to with the intent of providing full backward compatibility wit
   - @wildBill
   - @uniqueacid
 - Sovol for making their printers open-source
+
 
 _Why Lazy?_
 
