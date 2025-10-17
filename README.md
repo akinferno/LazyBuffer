@@ -97,7 +97,11 @@ _William Washington told me "Laziness breeds efficiency." I argued with him abou
 Started with my Lazy Cams for my Voron 0. I made them because I didn't like having to find a tool to open my Voron. I went throuch several iterations before settling on what I think is a must have mod for the Voron 0.
 Enter the Sovol SV08 Max buffer.  Not only was it loud and obnoxious, but it wasn't efficient. There were 3 sensors and they weren't being used effectively. So I spent weeks making the LazyBuffer macros, after being told it couldn't be done._
 
-# Known issues
+# Bug Chase
+**v0.25**
+* Attempted to correct the PAUSE issue. It seemed to be built into the Sovol PAUSE macro. I disable the filament sensorused by the Sovol macros to prevent automated actions. Should not affect new LazyBuffer macros.
+* 0.24 'fixes' have not  been tested.
+
 **v0.24**
 * LED status' aren't tracking properly after execution. M400 is causing this issue as it pauses commands until previous step is complete. Rewrite of LED management planned.
 * Possible overlap of command loops which M400 didn't fix. Implemented a different method to prevent, but not yet tested. If it works, M400 may be removed, fixing this and LED issue.
