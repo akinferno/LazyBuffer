@@ -1,4 +1,4 @@
-# **LazyBuffer configuration module** _v0.24_
+# **LazyBuffer configuration module** _v0.25_
 _(version 0.XX indicates Beta status. Once all the kinks are worked out, it will be updated to v1.0)_
 
 An override of the Sovol Buffer/Feeder to make it behave more like I expected it to behave when it was shown. With several enhancements I dreamed up at the time.
