@@ -7,7 +7,7 @@ This was created to with the intent of providing full backward compatibility wit
 
 **Disclaimer**: _Use at your own risk. I am not responsible for any damage caused by use of these macros. That said, I have been working on them for weeks and am using them myself. I would like feedback and suggestions to keep improving them. I can be reached here, or on the Sovol discord server under @AKinferno._
 
-_!!! Somehow, since version 0.25, things got really broke. I went through line by line and found lots of errors that didn't make sense to me. I think I may have accidently added a bunch of code due to the auto-fill in VS Code. I have not been using AI to write these processes, because it was consistently breaking things when I first started. So I started over from scratch without AI. I am not a programmer by trade, and Jinja is not what I know, so this is time consuming, but I think I corrected most of the issues i found, but still need to test._
+_!!! Somehow, in version 0.25, things got really broke. I went through line by line and found lots of errors that didn't make sense to me. I think I may have accidently added a bunch of code due to the auto-fill in VS Code. I have not been using AI to write these processes, because it was consistently breaking things when I first started. So I started over from scratch without AI. I am not a programmer by trade, and Jinja is not what I know, so this is time consuming, but I think I corrected most of the issues i found, but still need to test._
 
 # Installation
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
