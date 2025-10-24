@@ -99,6 +99,12 @@ Started with my Lazy Cams for my Voron 0. I made them because I didn't like havi
 Enter the Sovol SV08 Max buffer.  Not only was it loud and obnoxious, but it wasn't efficient. There were 3 sensors and they weren't being used effectively. So I spent weeks making the LazyBuffer macros, after being told it couldn't be done._
 
 # Bug Chase
+**v0.27**
+* Corrected a naming issue with Buffer Position Reset. I renamed the delayed gcode and didn't rename the call to the delayed gcode. Resulting in the printer getting stuck when paused.
+
+**v0.26**
+* Realized quite a bit of my code got messed up in v0.25. I think either the autofill messed things up, or my request for AI to add comments changed more than comments. I went through and the macros line by line to restore functionality. A lot broke on v0.25, but I think most of the issues are resolved with v0.26.
+
 **v0.25**
 * Attempted to correct the PAUSE issue. It seemed to be built into the Sovol PAUSE macro. I disable the filament sensorused by the Sovol macros to prevent automated actions. Should not affect new LazyBuffer macros.
 * 0.24 'fixes' have not  been tested.
