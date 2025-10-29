@@ -1,4 +1,4 @@
-# **LazyBuffer configuration module** _v0.28_
+# **LazyBuffer configuration module** _v0.29_
 _(version 0.XX indicates Beta status. Once all the kinks are worked out, it will be updated to v1.0)_
 
 An override of the Sovol Buffer/Feeder to make it behave more like I expected it to behave when it was shown. With several enhancements I dreamed up at the time.
@@ -99,6 +99,9 @@ Started with my Lazy Cams for my Voron 0. I made them because I didn't like havi
 Enter the Sovol SV08 Max buffer.  Not only was it loud and obnoxious, but it wasn't efficient. There were 3 sensors and they weren't being used effectively. So I spent weeks making the LazyBuffer macros, after being told it couldn't be done._
 
 # Bug Chase
+**v0.29**
+* Updated the Auto Load. Added macros for Filament Auto Load and Filament Auto Unload to trigger the functions manually instead of the touchscreen load/unload settings. 
+
 **v0.28**
 * Ok, think I found the last annoying bug with loading and unloading. Updating before testing to allow others to use it. 
 
