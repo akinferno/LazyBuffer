@@ -10,7 +10,7 @@ So what is a brief synopsys of what is left:
 - On startup, the buffer is synced with the extruder. The buffer auto correction of rotation distance only occurs when printing. 
 - If the extruder advances, the buffer advances. If extruder retracts, buffer retracts.
 - Easy disable the buffer with a toggle button in the fan area of Mainsail/Fluidd.  Message me on any of the socials if you want to make it defaulted off.
-- !! Remember, automation was removed. If you manually extrude or retract a bunch of filament outside a print, it may not correct for variations in rotation distance!!
+- **!! Remember, automation was removed outisde of prints !!**. If you manually extrude or retract a bunch of filament outside a print, it may not correct for variations in rotation distance!!
 
 # Installation
 1) Install Virtual Pins by Pedrolamas. https://github.com/pedrolamas/klipper-virtual-pins
