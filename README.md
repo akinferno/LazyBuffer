@@ -84,6 +84,7 @@ Decided you prefer loud noises and sporadic operation? All you have to do is cha
 
 
 # Credits and Acknowledgements
+- Voron Design for making the best printers and having the best 3d printer community 
 - Klipper by Kevin O'Connor
 - Virtual Pins by Pedrolamas
 - Assiting with Testing, troubleshooting and passing ideas:
