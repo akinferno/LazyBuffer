@@ -38,7 +38,7 @@ So what is a brief synopsys of what is left:
     b) Include the replacement _LazyBufferLite.cfg_ by typing _[include LazyBufferLite.cfg]_ in the _printer.cfg_ file.
 
         #[include Buffer_Stepper.cfg]
-        [include LazyBuffer.cfg]
+        [include LazyBufferLite.cfg]
 
 6) Save and restart Klipper.  You are done.
 
@@ -48,7 +48,7 @@ So what is a brief synopsys of what is left:
 Decided you prefer loud noises and sporadic operation? All you have to do is change your printer.cfg back to include the original file. You can either comment mine out, or delete the line completely. Save and reboot and you are back to how you bought it. The LazyBuffer.cfg can be deleted if you don't plan to use it again. 
 
         [include Buffer_Stepper.cfg]
-        #[include LazyBuffer.cfg]
+        #[include LazyBufferLite.cfg]
 
 
 # Credits and Acknowledgements
