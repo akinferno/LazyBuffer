@@ -25,6 +25,9 @@ Decided you prefer loud noises and sporadic operation? All you have to do is cha
         [include Buffer_Stepper.cfg]
         #[include LazyBufferDelete.cfg]
 
+# CONCERNS
+- I have not tested this. There may be some calls in the Macro.cfg that pop up a warning or filament related menu that will only clear if a variable is changed. If you let me know when that is triggered, I can look for that variable and have the dummy call switch it, or make a macro that can switch it to reset the display. It is also possible the variables never switch and everything is fine.
+
 
 # Credits and Acknowledgements
 - Voron Design for making the best printers and having the best 3d printer community 
