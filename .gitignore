@@ -1,0 +1,33 @@
+# Hardware-specific config (contains canbus_uuid and other machine-specific values)
+*_local.cfg
+secrets.cfg
+
+# Klipper log files
+*.log
+klippy.log
+klippy.log.*
+
+# Moonraker
+moonraker.log
+moonraker.log.*
+
+# Backup files
+*.bak
+*.bak.*
+*.old
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
